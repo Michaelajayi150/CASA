@@ -16,14 +16,18 @@
         <img src="./assets/svg/logo.svg" alt="logo">
       </div>
 
-      <nav>
+      <nav class="d-none d-md-block">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="facilities.html">Facilities</a></li>
           <li><a href="room.html">Rooms & Rates</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
+
       </nav>
+      <button class="d-block d-md-none toggle-btn">
+        &#9776;
+      </button>
     </div>
 
     <section class="hero">
@@ -49,6 +53,59 @@
 
   </main>
 
+  <footer>
+    <div>
+      <div class="logo">
+        <img src="./assets/svg/logo-light.svg" alt="logo">
+      </div>
+
+      <div class="social-links">
+        <a href="#"><img src="./assets/svg/carbon_logo-twitter.svg" alt="twitter icon"></a>
+        <a href="#"><img src="./assets/svg/bx_bxl-linkedin.svg" alt="twitter icon"></a>
+        <a href="#"><img src="./assets/svg/bx_bxl-facebook.svg" alt="twitter icon"></a>
+      </div>
+
+      <form action="">
+        <label for="email">Subscribe to our Newsletter</label>
+        <div>
+          <input type="email" name="email" placeholder="Email Address">
+          <input type="submit" name="submit" value="send">
+        </div>
+      </form>
+    </div>
+
+    <div class="link-grid-col">
+      <div>
+        <h4>About Us</h4>
+        <div class="d-flex flex-column links">
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">About Us</a>
+          <a href="#">Locations</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Suites</h4>
+        <div class="d-flex flex-column links">
+          <a href="#">London Standard</a>
+          <a href="#">Beach View</a>
+          <a href="#">Club Suites</a>
+          <a href="#">Mavellous Crimb</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="d-flex flex-column links">
+          <a href="#">London Standard</a>
+          <a href="#">Beach View</a>
+          <a href="#">Club Suites</a>
+          <a href="#">Mavellous Crimb</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
 </body>
 
 </html>
