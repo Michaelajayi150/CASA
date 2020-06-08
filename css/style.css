@@ -46,23 +46,32 @@ nav ul li a:hover, .active {
   background: transparent;
   border: 1px solid #3D405B;
   border-radius: 4px;
+} 
+
+.d-none {
+  display: block;
+}
+
+.d-block {
+  display: none;
 }
 
 header>section.hero {
+  width: 95%;
+  margin-left: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-bottom: 37px;
 }
 
 header>section.hero>div {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 2rem;
 }
 
 header>section.hero img {
   max-width: 100%;
   height: auto;
-  margin-top: 3rem;
+  margin-top: 0;
 }
 
 div.welcome {
@@ -139,10 +148,13 @@ header>section.hero div.book-now {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+main {
+  height: 1000px;
+}
 
 footer {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: .7fr 1fr;
   color: #FFFFFF;
   background: #1E202D;
   padding: 47px 10% 109px;
@@ -233,77 +245,15 @@ footer div.links:last-child {
   margin-top: 41px;
 }
 
-
 footer div.link-grid-col {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(3, 1fr);
   margin-top: 6rem;
 }
-
-
-/* Media Queries */
-
-@media screen and (min-width: 425px) {
-  footer div.link-grid-col {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  header {
-    background-color: #F7F7F7;
-    height: 100vh;
-  }
-  header.contact-us {
-    height: auto !important;
-  }
-  header>section.hero {
-    flex-direction: row;
-  }
-  header>section.hero>div {
-    padding-right: 0;
-  }
-  header>section.hero img {
-    margin-top: 0;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  footer {
-    grid-template-columns: .7fr 1fr;
-  }
-
-  footer div.link-grid-col {
-    margin-top: 0;
-  }
-}
-
-
-/* Utilities */
 
 .d-flex {
   display: flex !important;
 }
-
-.d-none {
-  display:  none !important;
-}
-
-.d-block {
-  display:  block !important;
-}
-
-@media screen and (min-width: 992px) {
-  .d-md-block  {
-    display:  block !important;
-  }
-
-  .d-md-none {
-    display:  none !important;
-  }
-  
-}
-
 .justifiy-center {
   justify-content: center !important;
 }
