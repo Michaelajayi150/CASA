@@ -24,12 +24,21 @@
           <li><a href="room.html">Rooms &amp; Rates</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
-
       </nav>
-      <button class="d-block d-md-none toggle-btn">
+
+      <button class="d-block d-md-none toggle-btn" onclick="mobileMenuToggle()">
         &#9776;
       </button>
+
     </div>
+    <nav class="mobile">
+      <ul class="justify-center flex-column">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="room.html" class="active">Rooms &amp; Rates</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
 
     <section class="hero">
       <div>
@@ -52,7 +61,7 @@
 
   <!-- TODO Let your codes go here -->
   <main>
-    
+
   </main>
 
   <footer>
@@ -108,6 +117,16 @@
     </div>
 
   </footer>
+
+  <script>
+    function mobileMenuToggle() {
+      if(document.querySelector(".mobile").classList.contains("menu-toggle")) {
+        document.querySelector(".mobile").classList.remove("menu-toggle");
+      } else {
+        document.querySelector(".mobile").classList.add("menu-toggle");
+      }
+    }
+  </script>
 </body>
 
 </html>
