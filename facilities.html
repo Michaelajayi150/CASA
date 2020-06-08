@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,10 +26,20 @@
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
-      <button class="d-block d-md-none toggle-btn">
+
+      <button class="d-block d-md-none toggle-btn" onclick="mobileMenuToggle()">
         &#9776;
       </button>
+
     </div>
+    <nav class="mobile">
+      <ul class="justify-center flex-column">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="facilities.html" class="active">Facilities</a></li>
+        <li><a href="room.html">Rooms &amp; Rates</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
 
     <section class="hero justifiy-center  text-center facilities">
       <div>
@@ -46,10 +56,11 @@
     </section>
   </header>
 
+  <!-- TODO Let your codes go here -->
   <main>
    
   </main>
-  
+
   <footer>
     <div>
       <div class="logo">
@@ -103,6 +114,8 @@
     </div>
 
   </footer>
-  
+
+  <script src="./js/script.js"></script>
 </body>
+
 </html>
