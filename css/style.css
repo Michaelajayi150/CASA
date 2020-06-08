@@ -57,15 +57,16 @@ nav ul li a:hover, .active {
 }
 
 header>section.hero {
-  width: 95%;
+  width: 90%;
   margin-left: auto;
   display: flex;
   flex-direction: row;
   padding-bottom: 37px;
 }
 
-header>section.hero>div {
+header>section.hero>div:first-child {
   padding-right: 2rem;
+  margin-top: 130px;
 }
 
 header>section.hero img {
@@ -98,6 +99,7 @@ header>section.hero h2 {
 }
 
 header>section.hero h3 {
+  width: 80%;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
@@ -136,11 +138,14 @@ header>section.hero div.book-now {
 }
 
 .facilities {
-  margin-top: 118px;
+  /* margin-top: 118px; */
+  margin-right: auto;
 }
 
 .facilities>div {
-  padding-right: 10% !important;
+  /* padding-right: 10% !important; */
+  margin-top: 0 !important;
+  padding: 5rem 0 !important;
 }
 
 .facilities h3 {
