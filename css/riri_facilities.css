@@ -1,0 +1,144 @@
+body{
+    font-family: open sans;
+}
+.first{
+    width: 85%;
+    display: flex;
+}
+.first-column {
+    width: 40%;
+    
+    padding: 40px;
+    
+    margin-left: 80px;
+}
+.first-column span {
+    width: 44px;
+    height: 4px;
+    background: #F2CC8F;
+    margin-right: 12px;
+    
+  }
+.first-column #shelter{
+    
+    margin-top: 60px;
+}
+
+
+.second-column {
+    width: 45%;
+    
+}
+.second-column img{
+    width: 720px;
+    height: 400px ;
+    margin-top: 20px;
+    
+}
+.second{
+    width: 85%;
+    display: flex;
+    
+}
+.fourth-column {
+    width: 40%;
+    
+    padding: 40px;
+    
+    margin-left: 170px;
+}
+.fourth-column #pool{
+    
+    margin-top: 80px;
+}
+
+.third-column{
+    width: 45%; 
+}
+.third-column img{
+    width: 650px;
+    height: 400px ;
+    margin-top: 30px;
+    
+}
+.third{
+    width: 85%;
+    display: flex;
+    
+}
+.fifth-column {
+    width: 40%;
+    
+    padding: 40px;
+    
+    margin-left: 80px;
+}
+.fifth-column #healthy{
+    
+    margin-top: 80px;
+}
+
+.sixth-column{
+    width: 45%; 
+}
+.sixth-column img{
+    width: 720px;
+    height: 400px ;
+    margin-top: 40px;
+    
+}
+.fourth{
+    width: 85%;
+    display: flex;
+    
+}
+.seventh-column {
+    width: 40%;
+    
+    padding: 40px;
+    margin-left: 170px;
+    
+}
+.seventh-column #game{
+    
+    margin-top: 80px;
+}
+
+.eight-column{
+    width: 45%; 
+}
+.eight-column img{
+    width: 650px;
+    height: 400px ;
+    margin-top: 40px;
+    
+}
+.fifth{
+    width: 85%;
+    display: flex;
+    
+}
+.ninth-column {
+    width: 40%;
+    
+    padding: 40px;
+    
+    margin-left: 80px;
+}
+.ninth-column #spa{
+    
+    margin-top: 80px;
+}
+
+.tenth-column{
+    width: 45%; 
+}
+.tenth-column img{
+    width: 720px;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
+
