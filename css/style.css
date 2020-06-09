@@ -79,7 +79,7 @@ nav.mobile li{
 }
 
 header>section.hero {
-  width: 90%;
+  width: 95%;
   margin-left: auto;
   display: flex;
   flex-direction: row;
@@ -181,6 +181,7 @@ footer {
   display: grid;
   grid-template-columns: .7fr 1fr;
   color: #FFFFFF;
+  clear: both;
   background: #1E202D;
   padding: 47px 10% 109px;
 }
