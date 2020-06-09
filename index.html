@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage</title>
+  <title>CASA | Homepage</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -22,16 +22,25 @@
       <nav class="d-none d-md-block">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="facilities.html">Facilities</a></li>
+          <li><a href="riri_facilities.html">Facilities</a></li>
           <li><a href="room.html">Rooms &amp; Rates</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
 
       </nav>
-      <button class="d-block d-md-none toggle-btn">
+      <button class="d-block d-md-none toggle-btn" onclick="mobileMenuToggle()">
         &#9776;
       </button>
-    </div>
+
+      </div>
+      <nav class="mobile">
+        <ul class="justify-center flex-column">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="riri_facilities.html">Facilities</a></li>
+          <li><a href="room.html">Rooms &amp; Rates</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
 
     <section class="hero">
       <div>
@@ -58,15 +67,15 @@
             <img src="src/images/Rectangle 49.jpg">
         </section>
         <section class="flex-tools">
-             <div>
+            <div class="intro">
                 <div class="welcome">
                     <div></div>
                     <h2>About Us</h2>
                 </div>
-            </div>
             <h3>What we offer you here</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             <div class="contact-us"><a href="contact.html">CONTACT US</a></div>
+            </div>
         </section>
     </div>
     <section class="grid-bgclor">
