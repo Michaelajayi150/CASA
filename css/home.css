@@ -164,6 +164,15 @@
   .font a {
     margin-top: 10%;
   }
+  .intro {
+    margin-top: 20px;
+  }
+  .intro h3 {
+    font-size: 40px;
+  }
+  .intro p {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 992px) {
