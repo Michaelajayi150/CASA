@@ -150,7 +150,6 @@ main .btn{
 }
 .grid figure img{
   width: 100%;
-  height: 80%;
 }
 .grid figcaption p {
   width: 80%;
@@ -175,12 +174,41 @@ main .btn{
   font-size: 40px;
   margin-top: 20%;
 }
+.contact-us a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #3D405B;
+  border-radius: 4px;
+  padding: 1rem 39px;
+  margin-top: 10px;
+}
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
+  .heading h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
   .grid {
     grid-template-columns: 1fr !important;
   }
+  .grid figcaption h2 {
+    margin: 10px 0 0;
+  }
+  .font a {
+    margin-top: 25% !important;
+    font-size: 55px;
+  }
+  figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
   .font a {
     margin-top: 10%;
   }
