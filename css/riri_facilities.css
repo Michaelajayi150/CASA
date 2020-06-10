@@ -54,6 +54,14 @@ body{
 }
 
 
+
+@media screen and (max-width: 360px) {
+  .heading h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .first {
     flex-direction: column;
