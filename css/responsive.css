@@ -1,4 +1,9 @@
 /* Media Queries */
+@media screen and (max-width: 360px) {
+  footer div.link-grid-col {
+    grid-template-columns: 1fr !important;
+  }
+}
 
 @media screen and (max-width: 768px) {
   header {
@@ -17,9 +22,7 @@
   header>section.hero img {
     margin-top: 3rem;
   }
-  footer div.link-grid-col {
-    grid-template-columns: 1fr 1fr !important;
-  }
+  
   /* Utilities */
   .d-none {
     display: none !important;
@@ -27,7 +30,11 @@
   .d-block {
     display: block !important;
   }
+  input {
+    margin-top: 20px;
+  }
 }
+
 
 @media screen and (max-width: 992px) {
   .d-md-block {
@@ -58,6 +65,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+  
 }
 
 @media screen and (max-width: 1024px) {
